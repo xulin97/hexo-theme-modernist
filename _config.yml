@@ -1,6 +1,8 @@
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  Python: /tags/Python
+  IOS: /tags/IOS
+  归档: /archives
 
 excerpt_link: Read More
 archive_yearly: false
