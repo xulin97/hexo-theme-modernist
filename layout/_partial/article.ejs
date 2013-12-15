@@ -1,7 +1,6 @@
 <article class="<%= item.layout %>">
   <header>
     <% if (item.layout != 'page'){ %>
-      <div class="icon"></div>
       <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>
     <% } %>
     <%- partial('post/title') %>
